@@ -17,7 +17,8 @@ A full-stack project management system built with Spring Boot and React, featuri
   <img width="954" height="404" alt="Screenshot 2025-09-03 at 10 56 48 AM" src="https://github.com/user-attachments/assets/90b56cfa-e178-459a-a692-92941211219d" />
 
 - **Real-time Comments** - Collaborative feedback system for seamless team communication
-  <img width="311" height="578" alt="Screenshot 2025-09-03 at 11 03 49 AM" src="https://github.com/user-attachments/assets/26cb35ed-f23c-4055-8e61-327d5bd208e0" />
+  
+- <img width="311" height="578" alt="Screenshot 2025-09-03 at 11 03 49 AM" src="https://github.com/user-attachments/assets/26cb35ed-f23c-4055-8e61-327d5bd208e0" />
 
 - **Subscription Plans** - Tiered access control with integrated payment processing
 - **Advanced Search** - Powerful filtering and search capabilities across projects and issues
