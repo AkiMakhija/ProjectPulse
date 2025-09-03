@@ -1,26 +1,103 @@
-# ProjectPulse
+# ProjectPulse 📊
 
-# Key Features
-Project Creation and Management: Practice creating and managing projects with ease, honing your project management skills along the way.
-User Invitation System: Learn how to implement user invitation systems for collaborative projects.
-Issue Management: Master the art of tracking and resolving project issues efficiently.
-Comment System: Understand the importance of collaboration and feedback by incorporating comment systems into your projects.
-Subscription Plans: Gain insights into implementing subscription-based models, a valuable skill in the modern tech industry.
+A full-stack project management system built with Spring Boot and React, featuring comprehensive project tracking, team collaboration, and subscription-based access control.
 
+## ✨ Key Features
 
-# Technology Stack
-Spring Boot: Dive deep into backend development with Spring Boot's powerful features.
-MySQL: Learn the ins and outs of database management using MySQL.
-React: Discover the flexibility and interactivity of React for frontend development.
-Tailwind CSS: Experiment with modern UI styling techniques using Tailwind CSS and Shadcn UI Library.
-Redux: Master state management in complex applications with Redux.
-React Router DOM: Navigate seamlessly between different sections of your application with React Router DOM.
-JWT Authentication: Implement secure user authentication mechanisms using JSON Web Tokens.
-Spring Security: Ensure your applications are secure from various threats with Spring Security.
-Spring Starter Mail: Learn how to integrate email notifications into your projects with Spring Starter Mail.
-Razorpay Integration: Gain hands-on experience in integrating payment gateways for subscription-based services.
+- **Project Management** - Create, organize, and track projects with intuitive dashboards
+- **Team Collaboration** - User invitation system with role-based access control
+- **Issue Tracking** - Comprehensive issue management with status tracking and assignments
+- **Real-time Comments** - Collaborative feedback system for seamless team communication
+- **Subscription Plans** - Tiered access control with integrated payment processing
+- **Advanced Search** - Powerful filtering and search capabilities across projects and issues
+- **Responsive Design** - Optimized for desktop, tablet, and mobile devices
 
+## 🛠 Tech Stack
 
-# Additional Features
-Search and Filter: Develop advanced search and filtering functionalities to enhance user experience.
-Responsive Design: Practice creating responsive designs that adapt seamlessly to various devices and screen sizes.
+### Backend
+- **Spring Boot** - RESTful API development
+- **MySQL** - Database management and storage
+- **Spring Security** - Authentication and authorization
+- **JWT** - Secure token-based authentication
+- **Spring Mail** - Email notifications and invitations
+- **Razorpay** - Payment gateway integration
+
+### Frontend
+- **React** - Dynamic user interface
+- **Redux** - State management
+- **Tailwind CSS** - Modern styling framework
+- **Shadcn UI** - Component library
+- **React Router DOM** - Client-side routing
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Java 17+
+- Node.js 16+
+- MySQL 8.0+
+- Maven 3.6+
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/projectpulse.git](https://github.com/AkiMakhija/ProjectPulse.git
+   cd projectpulse
+   ```
+
+2. **Backend Setup**
+   ```bash
+   cd backend
+   mvn clean install
+   mvn spring-boot:run
+   ```
+
+3. **Frontend Setup**
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
+
+4. **Database Configuration**
+   - Create MySQL database: `projectpulse`
+   - Update `application.properties` with your database credentials
+
+## 📱 Features Overview
+
+### Project Management
+- Create and organize projects with custom categories
+- Track project progress with visual indicators
+- Set deadlines and milestones
+
+### Issue Management
+- Create, assign, and track issues
+- Priority levels and status tracking
+- Attachment support for detailed documentation
+
+### Team Collaboration
+- Invite team members via email
+- Role-based permissions (Admin, Member, Viewer)
+- Real-time comment system with notifications
+
+### Subscription System
+- Multiple pricing tiers
+- Secure payment processing with Razorpay
+- Feature access control based on subscription level
+
+## 🔒 Security Features
+
+- JWT-based authentication
+- Spring Security integration
+- Password encryption
+- Protected API endpoints
+- Input validation and sanitization
+
+## 📄 API Documentation
+
+The API follows RESTful conventions with endpoints for:
+- Authentication (`/api/auth`)
+- Projects (`/api/projects`)
+- Issues (`/api/issues`)
+- Users (`/api/users`)
+- Subscriptions (`/api/subscriptions`)
